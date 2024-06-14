@@ -169,7 +169,7 @@ int main()
 
     int* size = new int;
 
-    cout << "The third array: ";
+    cout << "The third array: \n";
     int* C = init_third_array<int>(size, M, N, A, B);
     check_error(print_array<int>(C, size));
 
